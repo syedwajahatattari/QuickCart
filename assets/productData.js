@@ -162,3 +162,4 @@ export const products = [
     imgSrc: assets.asus_laptop_image,
   },
 ];
+
