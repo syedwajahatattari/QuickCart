@@ -31,9 +31,6 @@ const Navbar = () => {
         <Link href="/" className="hover:text-gray-900 transition">
           Contact
         </Link>
-        <Link href="/show-all-links" className="hover:text-gray-900 transition">
-          Show All Links
-        </Link>
 
         {isSeller && <button onClick={() => router.push('/seller')} className="text-xs border px-4 py-1.5 rounded-full">Seller Dashboard</button>}
 
